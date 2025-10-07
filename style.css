@@ -1,0 +1,88 @@
+/* Body styling */
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+/* Centered container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Form card styling */
+.form-container {
+    background-color: #fff;
+    padding: 30px 25px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+/* Hover effect */
+.form-container:hover {
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Form heading */
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: 600;
+}
+
+/* Input fields */
+.form-control {
+    border-radius: 5px;
+    padding: 10px 12px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+}
+
+/* Input focus effect */
+.form-control:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 5px rgba(13, 110, 253, 0.3);
+}
+
+/* Buttons */
+.btn-primary {
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #0d6efd;
+    border: none;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+}
+
+/* Error message styling */
+.text-danger {
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+/* Links */
+a {
+    color: #0d6efd;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 500px) {
+    .form-container {
+        padding: 20px 15px;
+    }
+}

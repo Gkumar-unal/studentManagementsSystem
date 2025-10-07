@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.error-message, #gender-error, #langs-error {
+  font-size: 0.9em;
+}
+
+.input-success {
+  border-color: green !important;
+}
+
+.input-error {
+  border-color: red !important;
+}
+
+.edit-btn, .delete-btn {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-btn {
+  background-color: #ffc107;
+  color: #000;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: #fff;
+}

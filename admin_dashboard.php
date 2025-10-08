@@ -55,8 +55,6 @@ $result = $conn->query("SELECT * FROM users WHERE role='student' ORDER BY id DES
       <h3 class="text-center">Admin</h3>
       <a href="#">Dashboard</a>
       <a href="student_add.html">Add Student </a>
-      <a href="#manageStudents">Manage Students</a>
-      <a href="#">Settings</a>
       <a href="logout.php" class="text-danger">Logout</a>
     </nav>
 
